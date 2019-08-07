@@ -1,2 +1,2 @@
 # Drawing-GUI
-GUI application for drawing rectangles and circles using JavaFX
+GUI application for drawing rectangles and circles using JavaFX.
