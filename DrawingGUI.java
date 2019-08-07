@@ -161,9 +161,6 @@ public class RectangleDrawingGUI extends Application {
 			if(rectangleRadioButton.isSelected()) {
 				pane.getChildren().add(createRectangle(rectangleStartingX, rectangleStartingY, currentMousePositionX, currentMousePositionY, rectangle));
 				listSize ++;
-				//after talking with the teacher I added: listSize ++; and move the removing statement before the adding one. 
-				//another solution was to keep the removing statement after the adding but creating a new rectangle and passing that in to the method, 
-				//instead of the old one. 
 			}else if(circleRadioButton.isSelected()) {
 				pane.getChildren().add(createCircle(circleX, circleY, currentMousePositionX, currentMousePositionY, circle));
 				listSize ++;
